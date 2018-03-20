@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 import com.duck.Duck;
+import com.duck.FlyWithBroom;
 import com.duck.PhoneyDuck;
 
 public class Main {
@@ -34,6 +35,8 @@ public class Main {
 		Duck duck = new PhoneyDuck();
 		duck.performFly();
 		duck.performQuack();
+		duck.setFlyB(new FlyWithBroom());
+		duck.performFly();
 	}
 	
 }
